@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D4CAE2B26DEA92A006E8529 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CAE2A26DEA92A006E8529 /* MapViewController.swift */; };
+		8D4CAE3226DFBEAB006E8529 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CAE3126DFBEAB006E8529 /* MapViewModel.swift */; };
 		8DD367AE26DB63C000DD1D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD367AD26DB63C000DD1D3F /* AppDelegate.swift */; };
 		8DD367B026DB63C000DD1D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD367AF26DB63C000DD1D3F /* SceneDelegate.swift */; };
 		8DD367B526DB63C000DD1D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD367B326DB63C000DD1D3F /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		8D4CAE2A26DEA92A006E8529 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8D4CAE3126DFBEAB006E8529 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		8DD367AA26DB63C000DD1D3F /* Know Your Country.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Know Your Country.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD367AD26DB63C000DD1D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DD367AF26DB63C000DD1D3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				8DD367CB26DB69F400DD1D3F /* CountriesViewModel.swift */,
 				8DD367E226DBCAD900DD1D3F /* CountryDetailViewModel.swift */,
+				8D4CAE3126DFBEAB006E8529 /* MapViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				8D4CAE2B26DEA92A006E8529 /* MapViewController.swift in Sources */,
 				8DD367DD26DB7B4B00DD1D3F /* CountryTableViewCell.swift in Sources */,
 				8DD367CC26DB69F400DD1D3F /* CountriesViewModel.swift in Sources */,
+				8D4CAE3226DFBEAB006E8529 /* MapViewModel.swift in Sources */,
 				8DD367E326DBCAD900DD1D3F /* CountryDetailViewModel.swift in Sources */,
 				8DD367E026DB94DA00DD1D3F /* CountryDetailViewController.swift in Sources */,
 				8DD367D026DB6A2500DD1D3F /* Country.swift in Sources */,
@@ -356,6 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Know Your Country/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,6 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Know Your Country/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

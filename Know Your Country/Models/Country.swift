@@ -19,7 +19,6 @@ struct Country: Codable {
     let numericCode: String?
     let area: Double?
     let population: Int?
-    var isFavourite: Bool? = false
 }
 
 struct Language: Codable {
@@ -28,7 +27,5 @@ struct Language: Codable {
 
 struct Currency: Codable {
     let name: String?
-    let code: String?
-    let symbol: String?
 }
 

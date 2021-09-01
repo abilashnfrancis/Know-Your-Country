@@ -17,6 +17,7 @@ class CountriesViewController: UIViewController {
     }()
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         initViewModel()
     }
     
